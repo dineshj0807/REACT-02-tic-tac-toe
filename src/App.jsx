@@ -1,8 +1,16 @@
+import Player from './components/Player.jsx';
 
 function App() {
 
-  return (
-    <p>comming soon...</p>
+  return (<main>
+    <div id='game-container'>
+      <ol id='players'>
+        <Player name='Player 01' symbol='X' />
+        <Player name='Player 02' symbol='O' />
+      </ol>
+      GAME BOARD
+    </div>
+    </main>
   );
 }
 
